@@ -70,6 +70,7 @@ console.log(divisibleBy5);
 console.log(divisibleBy3And5);
 */
 
+/*
 const array = ["maryam", 25, "cena", true, 22];
 
 // for (let i = 0; i < array.length; i++) {
@@ -79,3 +80,30 @@ const array = ["maryam", 25, "cena", true, 22];
 for (let i = array.length - 1; i >= 0; i--) {
   console.log(array[i]);
 }
+*/
+
+// for (let i = 1; i <= 3; i++) {
+//   for (let j = 1; j <= 5; j++) {
+//     console.log(`day ${i}: walking ${j} step.`);
+//   }
+//   console.log("");
+// }
+
+// 1-5
+// 6-10
+
+/**
+ * i=1, j
+ * 1+6 , 1+7 , 1+8 , 1+9 , 1+10
+ *
+ * i=2, j
+ * 2+6 , 2+7 , 2+8 , 2+9 , 2+10
+ */
+
+// for (let i = 1; i <= 2; i++) {
+//   for (let j = 3; j <= 6; j++) {
+//     console.log(`${i} + ${j} = ${i + j}`);
+//   }
+
+//   console.log("-----------------");
+// }
