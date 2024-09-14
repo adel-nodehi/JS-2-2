@@ -13,6 +13,7 @@ const displayInfo = function (name, birthYear) {
 
 console.log(displayInfo("Saeed", 2006));
 */
+
 /*
 const displayInfo = function (person) {
   console.log(
@@ -33,12 +34,36 @@ const narges = {
     );
   },
 };
-// narges.showInfo();
+narges.showInfo();
 
-displayInfo(narges);
+displayInfo();
 
-// maryam.sports = ["football", "taekwondo"];
-// maryam["spor" + "ts"] = ["football", "taekwondo"];
+ displayInfo(narges);
 
-// console.log([2, 3].includes());
+ maryam.sports = ["football", "taekwondo"];
+maryam["spor" + "ts"] = ["football", "taekwondo"];
+
+ console.log([2, 3].includes());
 */
+
+// for (let i = 1; i <= 9; i++) {
+//   console.log(`hello ${i}`);
+// }
+
+const divisibleBy3 = [];
+const divisibleBy5 = [];
+const divisibleBy3And5 = [];
+
+// 1-45
+
+for (let i = 1; i <= 45; i++) {
+  if (i % 3 === 0) divisibleBy3.push(i);
+
+  if (i % 5 === 0) divisibleBy5.push(i);
+
+  if (i % 3 === 0 && i % 5 === 0) divisibleBy3And5.push(i);
+}
+
+console.log(divisibleBy3);
+console.log(divisibleBy5);
+console.log(divisibleBy3And5);
