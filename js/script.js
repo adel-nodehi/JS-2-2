@@ -107,3 +107,5 @@ for (let i = array.length - 1; i >= 0; i--) {
 
 //   console.log("-----------------");
 // }
+
+console.log(Math.ceil(2.1));
