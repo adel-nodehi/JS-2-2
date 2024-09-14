@@ -46,6 +46,7 @@ maryam["spor" + "ts"] = ["football", "taekwondo"];
  console.log([2, 3].includes());
 */
 
+/*
 // for (let i = 1; i <= 9; i++) {
 //   console.log(`hello ${i}`);
 // }
@@ -67,3 +68,14 @@ for (let i = 1; i <= 45; i++) {
 console.log(divisibleBy3);
 console.log(divisibleBy5);
 console.log(divisibleBy3And5);
+*/
+
+const array = ["maryam", 25, "cena", true, 22];
+
+// for (let i = 0; i < array.length; i++) {
+//   console.log(array[i]);
+// }
+
+for (let i = array.length - 1; i >= 0; i--) {
+  console.log(array[i]);
+}
